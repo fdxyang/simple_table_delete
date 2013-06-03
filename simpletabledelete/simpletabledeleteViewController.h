@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface simpletabledeleteViewController : UIViewController
+@interface simpletabledeleteViewController: UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end
