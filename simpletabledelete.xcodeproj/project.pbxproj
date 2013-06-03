@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB72D820175CF02B0056D457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72D81F175CF02B0056D457 /* UIKit.framework */; };
+		CB72D822175CF02B0056D457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72D821175CF02B0056D457 /* Foundation.framework */; };
+		CB72D824175CF02B0056D457 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72D823175CF02B0056D457 /* CoreGraphics.framework */; };
+		CB72D82A175CF02B0056D457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB72D828175CF02B0056D457 /* InfoPlist.strings */; };
+		CB72D82C175CF02B0056D457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D82B175CF02B0056D457 /* main.m */; };
+		CB72D830175CF02B0056D457 /* simpletabledeleteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D82F175CF02B0056D457 /* simpletabledeleteAppDelegate.m */; };
+		CB72D832175CF02B0056D457 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB72D831175CF02B0056D457 /* Default.png */; };
+		CB72D834175CF02B0056D457 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB72D833175CF02B0056D457 /* Default@2x.png */; };
+		CB72D836175CF02B0056D457 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB72D835175CF02B0056D457 /* Default-568h@2x.png */; };
+		CB72D839175CF02B0056D457 /* simpletabledeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72D838175CF02B0056D457 /* simpletabledeleteViewController.m */; };
+		CB72D83C175CF02B0056D457 /* simpletabledeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB72D83A175CF02B0056D457 /* simpletabledeleteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB72D81C175CF02B0056D457 /* simpletabledelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpletabledelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB72D81F175CF02B0056D457 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB72D821175CF02B0056D457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB72D823175CF02B0056D457 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB72D827175CF02B0056D457 /* simpletabledelete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpletabledelete-Info.plist"; sourceTree = "<group>"; };
+		CB72D829175CF02B0056D457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB72D82B175CF02B0056D457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB72D82D175CF02B0056D457 /* simpletabledelete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpletabledelete-Prefix.pch"; sourceTree = "<group>"; };
+		CB72D82E175CF02B0056D457 /* simpletabledeleteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpletabledeleteAppDelegate.h; sourceTree = "<group>"; };
+		CB72D82F175CF02B0056D457 /* simpletabledeleteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpletabledeleteAppDelegate.m; sourceTree = "<group>"; };
+		CB72D831175CF02B0056D457 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CB72D833175CF02B0056D457 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CB72D835175CF02B0056D457 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB72D837175CF02B0056D457 /* simpletabledeleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpletabledeleteViewController.h; sourceTree = "<group>"; };
+		CB72D838175CF02B0056D457 /* simpletabledeleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpletabledeleteViewController.m; sourceTree = "<group>"; };
+		CB72D83B175CF02B0056D457 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/simpletabledeleteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB72D819175CF02B0056D457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72D820175CF02B0056D457 /* UIKit.framework in Frameworks */,
+				CB72D822175CF02B0056D457 /* Foundation.framework in Frameworks */,
+				CB72D824175CF02B0056D457 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB72D813175CF02B0056D457 = {
+			isa = PBXGroup;
+			children = (
+				CB72D825175CF02B0056D457 /* simpletabledelete */,
+				CB72D81E175CF02B0056D457 /* Frameworks */,
+				CB72D81D175CF02B0056D457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB72D81D175CF02B0056D457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D81C175CF02B0056D457 /* simpletabledelete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB72D81E175CF02B0056D457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D81F175CF02B0056D457 /* UIKit.framework */,
+				CB72D821175CF02B0056D457 /* Foundation.framework */,
+				CB72D823175CF02B0056D457 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB72D825175CF02B0056D457 /* simpletabledelete */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D82E175CF02B0056D457 /* simpletabledeleteAppDelegate.h */,
+				CB72D82F175CF02B0056D457 /* simpletabledeleteAppDelegate.m */,
+				CB72D837175CF02B0056D457 /* simpletabledeleteViewController.h */,
+				CB72D838175CF02B0056D457 /* simpletabledeleteViewController.m */,
+				CB72D83A175CF02B0056D457 /* simpletabledeleteViewController.xib */,
+				CB72D826175CF02B0056D457 /* Supporting Files */,
+			);
+			path = simpletabledelete;
+			sourceTree = "<group>";
+		};
+		CB72D826175CF02B0056D457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB72D827175CF02B0056D457 /* simpletabledelete-Info.plist */,
+				CB72D828175CF02B0056D457 /* InfoPlist.strings */,
+				CB72D82B175CF02B0056D457 /* main.m */,
+				CB72D82D175CF02B0056D457 /* simpletabledelete-Prefix.pch */,
+				CB72D831175CF02B0056D457 /* Default.png */,
+				CB72D833175CF02B0056D457 /* Default@2x.png */,
+				CB72D835175CF02B0056D457 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB72D81B175CF02B0056D457 /* simpletabledelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB72D83F175CF02B0056D457 /* Build configuration list for PBXNativeTarget "simpletabledelete" */;
+			buildPhases = (
+				CB72D818175CF02B0056D457 /* Sources */,
+				CB72D819175CF02B0056D457 /* Frameworks */,
+				CB72D81A175CF02B0056D457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpletabledelete;
+			productName = simpletabledelete;
+			productReference = CB72D81C175CF02B0056D457 /* simpletabledelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB72D814175CF02B0056D457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = simpletabledelete;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Goda;
+			};
+			buildConfigurationList = CB72D817175CF02B0056D457 /* Build configuration list for PBXProject "simpletabledelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB72D813175CF02B0056D457;
+			productRefGroup = CB72D81D175CF02B0056D457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB72D81B175CF02B0056D457 /* simpletabledelete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB72D81A175CF02B0056D457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72D82A175CF02B0056D457 /* InfoPlist.strings in Resources */,
+				CB72D832175CF02B0056D457 /* Default.png in Resources */,
+				CB72D834175CF02B0056D457 /* Default@2x.png in Resources */,
+				CB72D836175CF02B0056D457 /* Default-568h@2x.png in Resources */,
+				CB72D83C175CF02B0056D457 /* simpletabledeleteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB72D818175CF02B0056D457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72D82C175CF02B0056D457 /* main.m in Sources */,
+				CB72D830175CF02B0056D457 /* simpletabledeleteAppDelegate.m in Sources */,
+				CB72D839175CF02B0056D457 /* simpletabledeleteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB72D828175CF02B0056D457 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB72D829175CF02B0056D457 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB72D83A175CF02B0056D457 /* simpletabledeleteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB72D83B175CF02B0056D457 /* en */,
+			);
+			name = simpletabledeleteViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB72D83D175CF02B0056D457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB72D83E175CF02B0056D457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB72D840175CF02B0056D457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletabledelete/simpletabledelete-Prefix.pch";
+				INFOPLIST_FILE = "simpletabledelete/simpletabledelete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB72D841175CF02B0056D457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletabledelete/simpletabledelete-Prefix.pch";
+				INFOPLIST_FILE = "simpletabledelete/simpletabledelete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB72D817175CF02B0056D457 /* Build configuration list for PBXProject "simpletabledelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB72D83D175CF02B0056D457 /* Debug */,
+				CB72D83E175CF02B0056D457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB72D83F175CF02B0056D457 /* Build configuration list for PBXNativeTarget "simpletabledelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB72D840175CF02B0056D457 /* Debug */,
+				CB72D841175CF02B0056D457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB72D814175CF02B0056D457 /* Project object */;
+}
